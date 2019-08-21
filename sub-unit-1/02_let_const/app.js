@@ -3,8 +3,12 @@
 var a = "Test1";
 var b = "Test2";
 
+a => a+=a;
+
+
 const testVar = () => {
-    var a = 30;
+    const a = 30;
+
     if (true) {
         let a = 50;
         console.log(a);
@@ -15,4 +19,4 @@ const testVar = () => {
 
 console.log('other A: ${a}');
 
-testVar();
+testVar();  
